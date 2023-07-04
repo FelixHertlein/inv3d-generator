@@ -1,0 +1,527 @@
+
+<!-- saved from url=(0101)http://localhost:63342/inv3d-generator/assets/templates/Invoice_5.htm?_ijt=vmd0ot078jtls5rkcipbqa5dbv -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<title>Service Invoice Template</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:2.0pt;
+	margin-left:0cm;
+	font-size:10.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#595959;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Fußzeile Zchn";
+	margin:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-link:"Kein Leerraum Zchn";
+	margin:0cm;
+	font-size:10.5pt;
+	font-family:"Calibri",sans-serif;
+	color:#595959;}
+span.FuzeileZchn
+	{mso-style-name:"Fußzeile Zchn";
+	mso-style-link:Fußzeile;}
+span.KeinLeerraumZchn
+	{mso-style-name:"Kein Leerraum Zchn";
+	mso-style-link:"Kein Leerraum";
+	font-family:"Times New Roman",serif;
+	color:#595959;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:40.35pt 54.0pt 61.35pt 54.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang="DE" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+
+<div class="WordSection1">
+
+<table class="MsoTableGrid" border="0" cellspacing="0" cellpadding="0" summary="Billing and shipping info table" style="border-collapse:collapse;
+ border:none">
+ <tbody><tr>
+  <td width="501" valign="top" style="width:375.65pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:14.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a name="Texto8"></a>{{ seller.company.name }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:5.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:black">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:black">Name: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a name="Texto11"></a>{{ seller.contact }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:black">Street Address: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ seller.address.street }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:black">City, State: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ seller.address.city }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:black">ZIP Code: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ seller.address.city.postcode }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:black">Phone: </span><span lang="PT-BR" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black"><a name="Texto12"></a></span><span lang="EN-US" style="font-size:10.0pt;font-family:
+  &quot;Arial&quot;,sans-serif;color:black">{{ seller.phone_number }}</span></p>
+  <p class="MsoNormal"><span lang="PT-BR" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:black">E-mail: </span><span lang="PT-BR" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ seller.email }}</span></p>
+  </td>
+  <td width="170" valign="top" style="width:127.85pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><b><span lang="EN-US" style="font-size:26.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F4E79">INVOICE</span></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:gray">&nbsp;</span></p>
+
+<table class="MsoTableGrid" border="0" cellspacing="0" cellpadding="0" align="left" style="background:#A9D2FA;border-collapse:collapse;border:none;margin-left:
+ 4.8pt;margin-right:4.8pt">
+ <tbody><tr style="height:25.5pt">
+  <td width="336" style="width:251.75pt;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:#0D0D0D">Invoice </span><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">{{ invoice_number }}</span></p>
+  </td>
+  <td width="336" style="width:251.75pt;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">Date: {{ invoice_date }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></p>
+
+<div>
+
+<table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="left">
+ <tbody><tr>
+  <td valign="top" align="left" style="padding-top:0cm;padding-right:7.05pt;
+  padding-bottom:0cm;padding-left:7.05pt">
+  <p class="MsoNormal"><b><span lang="EN-US" style="font-size:10.0pt;font-family:
+  &quot;Arial&quot;,sans-serif;color:#0D0D0D">Client / Customer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></b></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:#0D0D0D">Name: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D"><a name="Texto1"></a>{{ buyer.bill.contact }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:#0D0D0D">Street Address: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D"><a name="Texto2"></a>{{ buyer.bill.address.street }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:#0D0D0D">City, State: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">{{ buyer.bill.address.city }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;
+  color:#0D0D0D">ZIP Code: </span><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">{{ buyer.bill.address.city.postcode }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-size:5.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></p>
+
+<table class="InvoiceTable" border="1" cellspacing="0" cellpadding="0" summary="Invoice table" width="675" style="margin-left:-.25pt;border-collapse:
+ collapse;border:none">
+ <tbody><tr style="height:17.0pt">
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-right:
+  none;background:#A9D2FA;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">Description</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:solid #7F7F7F 1.0pt;border-left:
+  none;border-bottom:solid #7F7F7F 1.0pt;border-right:none;background:#A9D2FA;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">Hours</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:solid #7F7F7F 1.0pt;border-left:
+  none;border-bottom:solid #7F7F7F 1.0pt;border-right:none;background:#A9D2FA;
+  padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">$ / Hours</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border:solid #7F7F7F 1.0pt;border-left:
+  none;background:#A9D2FA;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:11.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">Amount
+  ($)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.0.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.0.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.0.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.0.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.1.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.1.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.1.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.1.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.2.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.2.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.2.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.2.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.3.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.3.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.3.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.3.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.4.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.4.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.4.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.4.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.5.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.5.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.5.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.5.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.6.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.6.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.6.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.6.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.7.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.7.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.7.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.7.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.8.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.8.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.8.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.8.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.9.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.9.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.9.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.9.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.10.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.10.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.10.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.10.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.11.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.11.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.11.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.11.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:solid #7F7F7F 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.12.description }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.12.quantity }}</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.12.unit_price  }}</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ products.12.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border:none;border-bottom:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D"></span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border:none;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">SUBTOTAL</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ summary.subtotal }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border:none;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">DISCOUNT</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ summary.discount }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0D0D0D">{{ payment_terms }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border:none;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">TAX</span></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ summary.tax_rate }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="336" style="width:252.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+  </td>
+  <td width="120" style="width:90.05pt;border:none;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">TOTAL</span></b></p>
+  </td>
+  <td width="111" style="width:83.55pt;border-top:none;border-left:none;
+  border-bottom:solid #7F7F7F 1.0pt;border-right:solid #7F7F7F 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">{{ summary.balance }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-size:5.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:#0D0D0D">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-size:5.0pt;font-family:&quot;Arial&quot;,sans-serif;
+color:black">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">&nbsp;</span></p>
+
+<p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Thank you
+for your business!</span></p>
+
+</div>
+
+
+
+
+</body></html>

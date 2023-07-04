@@ -1,0 +1,22 @@
+Abbreviation,PaymentTerm,Description,DueOffset
+PIA,Payment in advance,Payment in advance,
+Net 7,Payment seven days after invoice date,Payment seven days after invoice date,7
+Net 10,Payment ten days after invoice date,Payment ten days after invoice date,10
+Net 30,Payment 30 days after invoice date,Payment 30 days after invoice date,30
+Net 60,Payment 60 days after invoice date,Payment 60 days after invoice date,60
+Net 90,Payment 90 days after invoice date,Payment 90 days after invoice date,90
+EOM,Payment terms: End of month,End of month,eom
+21 MFI,Payment terms: 21MFI,21st of the month following invoice date,21mfi
+1% 10 Net 30,Payment terms: 1% 10 Net 30,1% discount if payment received within ten days otherwise payment 30 days after invoice date,30
+COD,Cash on delivery,Cash on delivery,
+Cash account,Payment terms: Cash account,"Account conducted on a cash basis, no credit",30
+Letter of credit,Payment terms: Letter of credit,"A documentary credit confirmed by a bank, often used for export",30
+Bill of exchange,Payment: Bill of exchange,"A promise to pay at a later date, usually supported by a bank",30
+CND,Cash next delivery,Cash next delivery,
+CBS,Cash before shipment,Cash before shipment,
+CIA,Cash in advance,Cash in advance,
+CWO,Cash with order,Cash with order,
+1MD,Payment terms: 1MD,Monthly credit payment of a full month's supply,30
+2MD,Payment terms: 2MD,As above plus an extra calendar month,60
+Contra,Payment terms: Contra,Payment from the customer offset against the value of supplies purchased from the customer,
+Stage payment,Payment terms: Stage payment,Payment of agreed amounts at stage,

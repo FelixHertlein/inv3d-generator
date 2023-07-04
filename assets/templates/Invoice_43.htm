@@ -1,0 +1,646 @@
+
+<!-- saved from url=(0102)http://localhost:63342/inv3d-generator/assets/templates/Invoice_43.htm?_ijt=qb9fqa4eifu0jjm5b9dq5j6o6o -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<title>Company Logo Here</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Kopfzeile Zchn";
+	margin:0cm;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Fu\00DFzeile Zchn";
+	margin:0cm;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.KopfzeileZchn
+	{mso-style-name:"Kopfzeile Zchn";
+	mso-style-link:Kopfzeile;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.FuzeileZchn
+	{mso-style-name:"Fu\00DFzeile Zchn";
+	mso-style-link:Fu\00DFzeile;
+	font-family:"Arial",sans-serif;
+	color:black;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 36.0pt 72.0pt 36.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body bgcolor="white" lang="DE" style="word-wrap:break-word">
+
+<div class="WordSection1">
+
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100.0%;border-collapse:collapse">
+ <tbody><tr>
+  <td width="185" rowspan="4" style="width:138.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <img width="185" id="Picture 125" src="./Invoice_43_files/image001.jpg" alt="Logo placeholder" style="
+    margin: auto;
+    display: block;
+" align="center">
+<p></p>
+  </td>
+  <td width="278" style="width:208.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US" style="font-size:14.0pt;font-family:&quot;Cambria&quot;,serif;color:#C00000">{{ seller.company.name }}</span></b></p>
+  </td>
+  <td width="48" style="width:36.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;
+  color:#76923C">&nbsp;</span></p>
+  </td>
+  <td width="223" style="width:167.4pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b><span lang="EN-US" style="font-size:20.0pt;font-family:
+  &quot;Cambria&quot;,serif;color:#76923C">INVOICE</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="278" style="width:208.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif;color:#1F497D">{{ seller.address.street }}</span></p>
+  </td>
+  <td width="48" style="width:36.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="223" style="width:167.4pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="278" style="width:208.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif;color:#1F497D">{{ seller.address.city }}</span></p>
+  </td>
+  <td width="48" style="width:36.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="223" style="width:167.4pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">Invoice
+  Number: {{ invoice_number }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="278" style="width:208.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif;color:#1F497D">{{ seller.phone_number }}</span></p>
+  </td>
+  <td width="48" style="width:36.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="223" style="width:167.4pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">Invoice
+  Date: {{ invoice_date }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="185" style="width:138.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="278" style="width:208.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif;color:#1F497D">{{ seller.website }}</span></p>
+  </td>
+  <td width="48" style="width:36.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="223" style="width:167.4pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="185" style="width:138.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="278" style="width:208.7pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="48" style="width:36.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="223" style="width:167.4pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif"><br>
+</span><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;color:#76923C">Customer
+Information: <br>
+<br>
+</span></b></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="100%" style="width:100.0%;border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="367" colspan="2" style="width:275.4pt;border:solid windowtext 1.0pt;
+  background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;
+  color:white">Billing Address:</span></b></p>
+  </td>
+  <td width="367" colspan="2" style="width:275.4pt;border:solid windowtext 1.0pt;
+  border-left:none;background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;
+  color:white">Shipping Address:</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="115" style="width:86.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">Company:</span></p>
+  </td>
+  <td width="252" style="width:189.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.company.name }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">Company:</span></p>
+  </td>
+  <td width="259" style="width:194.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.company.name }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="115" style="width:86.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">Name:</span></p>
+  </td>
+  <td width="252" style="width:189.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.bill.contact }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">Name:</span></p>
+  </td>
+  <td width="259" style="width:194.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.shipment.contact }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="115" style="width:86.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">Address:</span></p>
+  </td>
+  <td width="252" style="width:189.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.bill.address.street}}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">Address:</span></p>
+  </td>
+  <td width="259" style="width:194.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.shipment.address.street }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="115" style="width:86.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="252" style="width:189.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="259" style="width:194.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="115" style="width:86.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">City/State/Zip</span></p>
+  </td>
+  <td width="252" style="width:189.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.bill.address.city }}</span></p>
+  </td>
+  <td width="108" style="width:81.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">City/State/Zip</span></p>
+  </td>
+  <td width="259" style="width:194.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ buyer.shipment.address.city }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="100%" style="width:100.0%;border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="343" style="width:257.4pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="132" style="width:99.0pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif">Shipping
+  Method:</span></b></p>
+  </td>
+  <td width="259" style="width:194.4pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif">{{ summary.shipping.method }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif"><br>
+Order Information:<br>
+<br>
+</span></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="100%" style="width:100.0%;border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;background:
+  #31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;color:white">Qty</span></b></p>
+  </td>
+  <td width="348" style="width:261.0pt;border:solid windowtext 1.0pt;border-left:
+  none;background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;color:white">Product
+  Description</span></b></p>
+  </td>
+  <td width="152" style="width:114.0pt;border:solid windowtext 1.0pt;border-left:
+  none;background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;color:white">Amount Each</span></b></p>
+  </td>
+  <td width="151" style="width:4.0cm;border:solid windowtext 1.0pt;border-left:
+  none;background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;color:white">Amount</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.0.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.0.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.0.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.0.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.1.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.1.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.1.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.1.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.2.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.2.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.2.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.2.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.3.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.3.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.3.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.3.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.4.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.4.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.4.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.4.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.5.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.5.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.5.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.5.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.6.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.6.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.6.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.6.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.7.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.7.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.7.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.7.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.8.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.8.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.8.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.8.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.9.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.9.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.9.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.9.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.10.quantity }}</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.10.description }}</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.10.unit_price }}</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ products.10.total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif;color:white">Subtotal:</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ summary.subtotal }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif;color:white">Tax: </span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ summary.tax_total }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif;color:white">Shipping:</span></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ summary.shipping.price }}</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="91" style="width:68.4pt;border:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="348" style="width:261.0pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+  <td width="152" style="width:114.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  background:#31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;color:white">Grand Total:</span></b></p>
+  </td>
+  <td width="151" style="width:4.0cm;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif">{{ summary.balance }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif"><br>
+<br>
+</span></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none">
+ <tbody><tr>
+  <td width="734" style="width:550.8pt;border:solid windowtext 1.0pt;background:
+  #31849B;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><b><span lang="EN-US" style="font-family:&quot;Cambria&quot;,serif;
+  color:white">Notes:</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="734" style="width:550.8pt;border:solid windowtext 1.0pt;border-top:
+  none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">{{ payment_terms }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="EN-US" style="font-size:8.0pt;font-family:&quot;Cambria&quot;,serif">&nbsp;</span></p>
+
+</div>
+
+
+
+
+</body></html>

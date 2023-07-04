@@ -1,0 +1,1 @@
+Copy meshes here (*.obj)

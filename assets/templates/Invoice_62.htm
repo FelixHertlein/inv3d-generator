@@ -1,0 +1,514 @@
+
+<!-- saved from url=(0102)http://localhost:63342/inv3d-generator/assets/templates/Invoice_62.htm?_ijt=u1eftvfjcl66kl0q77kk3g1lea -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Roboto Condensed";
+	panose-1:2 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	line-height:110%;
+	font-size:8.5pt;
+	font-family:"Tahoma",sans-serif;
+	letter-spacing:.2pt;}
+h1
+	{margin:0cm;
+	text-align:right;
+	line-height:110%;
+	font-size:20.0pt;
+	font-family:"Tahoma",sans-serif;
+	color:gray;
+	letter-spacing:.2pt;
+	font-weight:bold;}
+h2
+	{margin-top:7.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	line-height:110%;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;
+	letter-spacing:.2pt;
+	font-weight:bold;}
+h3
+	{margin:0cm;
+	line-height:110%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	text-transform:uppercase;
+	letter-spacing:.2pt;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+p.ColumnHeadings, li.ColumnHeadings, div.ColumnHeadings
+	{mso-style-name:"Column Headings";
+	margin:0cm;
+	text-align:center;
+	line-height:110%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	letter-spacing:.2pt;
+	font-weight:bold;}
+p.Labels, li.Labels, div.Labels
+	{mso-style-name:Labels;
+	margin:0cm;
+	text-align:right;
+	line-height:110%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	text-transform:uppercase;
+	letter-spacing:.2pt;}
+p.Slogan, li.Slogan, div.Slogan
+	{mso-style-name:Slogan;
+	margin:0cm;
+	line-height:110%;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;
+	letter-spacing:.2pt;
+	font-style:italic;}
+p.Normal1, li.Normal1, div.Normal1
+	{mso-style-name:Normal1;
+	margin:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:36.0pt 36.0pt 36.7pt 36.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang="DE" link="blue" vlink="#954F72" style="word-wrap:break-word">
+
+<div class="WordSection1">
+
+<div align="center">
+
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="720" style="width:540.0pt;border-collapse:collapse">
+ <tbody><tr style="height:39.75pt">
+  <td width="361" rowspan="2" valign="top" style="width:270.6pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:39.75pt">
+  <h2><span lang="EN-US" style="font-size:16.0pt;line-height:110%">{{ seller.company.name
+  }}</span></h2>
+  <p class="Slogan"><span lang="EN-US" style="font-size:11.0pt;line-height:110%">{{
+  seller.company.slogan }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{
+  seller.address }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">Phone
+  {{ seller.phone_number }} </span></p>
+  </td>
+  <td width="359" valign="top" style="width:269.4pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:39.75pt">
+  <h1 style="line-height:200%"><span lang="EN-US" style="color:black">INVOICE</span></h1>
+  </td>
+ </tr>
+ <tr style="height:39.75pt">
+  <td width="359" valign="bottom" style="width:269.4pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:39.75pt">
+  <p class="Labels" style="line-height:200%"><b><span lang="EN-US" style="font-size:10.0pt;line-height:200%">Invoice {{ invoice_number }}</span></b></p>
+  <p class="Labels" style="line-height:200%"><span lang="EN-US" style="font-size:
+  10.0pt;line-height:200%">Date: {{ invoice_date }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+
+<div align="center">
+
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="720" style="width:540.0pt;border-collapse:collapse">
+ <tbody><tr style="height:72.0pt">
+  <td width="360" valign="top" style="width:270.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:72.0pt">
+  <h3><span lang="EN-US" style="font-size:10.0pt;line-height:110%">To:</span></h3>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{
+  buyer.bill.contact }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{
+  buyer.company.name }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{
+  buyer.bill.address }}</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{
+  buyer.bill.phone_number }}</span></p>
+  </td>
+  <td width="360" valign="top" style="width:270.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:72.0pt">
+  <h3 align="right" style="text-align:right"><span lang="EN-US" style="font-size:
+  10.0pt;line-height:110%">Ship To:</span></h3>
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{ buyer.shipment.contact }}</span></p>
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{ buyer.company.name }}</span></p>
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{ buyer.shipment.address }}</span></p>
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">&nbsp;</span></p>
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US" style="font-size:10.0pt;line-height:110%">{{ buyer.shipment.phone_number }}</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+
+<div align="center">
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="720" style="width:540.0pt;border-collapse:collapse;border:none">
+ <tbody><tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border:solid windowtext 1.0pt;
+  border-top:solid windowtext 1.5pt;padding:2.15pt 5.75pt 2.15pt 5.75pt;
+  height:14.4pt">
+  <p class="ColumnHeadings"><span lang="EN-US">DESCRIPTION</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border-top:solid windowtext 1.5pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="ColumnHeadings"><span lang="EN-US">QUANTITY</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border-top:solid windowtext 1.5pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="ColumnHeadings"><span lang="EN-US">UNIT PRICE</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border-top:solid windowtext 1.5pt;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="ColumnHeadings"><span lang="EN-US">TOTAL</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.0.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.0.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.0.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.0.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.1.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.1.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.1.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.1.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.2.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.2.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.2.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.2.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.3.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.3.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.3.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.3.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.4.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.4.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.4.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.4.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.5.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.5.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.5.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.5.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.6.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.6.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.6.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.6.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.7.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.7.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.7.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.7.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.8.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.8.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.8.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.8.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="435" colspan="2" style="width:326.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.9.description }}</span></p>
+  </td>
+  <td width="94" style="width:70.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:2.15pt 10.8pt 2.15pt 10.8pt;
+  height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">{{ products.9.quantity }}</span></p>
+  </td>
+  <td width="98" style="width:73.2pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:2.15pt 10.8pt 2.15pt 10.8pt;
+  height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.9.unit_price }}</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  products.9.total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="430" rowspan="4" valign="top" style="width:322.35pt;border:none;
+  padding:2.15pt 5.75pt 2.15pt 5.75pt;height:14.4pt">
+  <p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+  </td>
+  <td width="197" colspan="3" style="width:147.4pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="Labels"><span lang="EN-US">SUBTOTAL</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  summary.subtotal }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="197" colspan="3" style="width:147.4pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="Labels"><span lang="EN-US">SALES TAX</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  summary.tax_total }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="197" colspan="3" style="width:147.4pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="Labels"><span lang="EN-US">SHIPPING &amp; HANDLING</span></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  summary.shipping.price }}</span></p>
+  </td>
+ </tr>
+ <tr style="page-break-inside:avoid;height:14.4pt">
+  <td width="197" colspan="3" style="width:147.4pt;border:none;border-right:solid windowtext 1.0pt;
+  padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="Labels"><b><span lang="EN-US">TOTAL due</span></b></p>
+  </td>
+  <td width="94" style="width:70.25pt;border:solid windowtext 1.0pt;border-left:
+  none;padding:2.15pt 10.8pt 2.15pt 10.8pt;height:14.4pt">
+  <p class="MsoNormal" align="right" style="text-align:right"><span lang="EN-US">{{
+  summary.balance }}</span></p>
+  </td>
+ </tr>
+ <tr height="0">
+  <td width="292" style="border:none"></td>
+  <td width="3" style="border:none"></td>
+  <td width="131" style="border:none"></td>
+  <td width="140" style="border:none"></td>
+  <td width="154" style="border:none"></td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal"><b><span lang="EN-US">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="line-height:200%"><b><span lang="EN-US" style="font-size:9.0pt;line-height:200%">Additional Information/Comments:</span></b></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="/* margin-left:5.4pt; */border-collapse:collapse;border:none;">
+ <tbody><tr style="height:99.65pt">
+  <td width="718" valign="top" style="width:19.0cm;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:99.65pt">
+  <p class="MsoNormal"><b><span lang="EN-US">&nbsp;</span></b></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><b><span lang="EN-US">&nbsp;</span></b></p>
+
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+
+<p class="MsoNormal"><b><span lang="EN-US">&nbsp;</span></b></p>
+
+</div>
+
+
+
+
+</body></html>
