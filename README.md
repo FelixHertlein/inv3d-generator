@@ -102,7 +102,5 @@ This work is based on the dataset generation of [Doc3D](https://github.com/sagni
 
 ## License
 
-This project is licensed under [MIT][1] unless another license is specified in a given subfolder.
-
-[1]: https://abhshkdz.mit-license.org/
+This project is licensed under [MIT](LICENSE) unless another license is specified in a given subfolder.
 
