@@ -17,8 +17,8 @@ For the dataset generation, your need the following ressources:
 - Fonts (already in this repository)
 - Document templates (already in this repository)
 
-For all ressources there are at least examplary files provided in this repository for a quick start. For a full dataset generation this data should be replaced by the full ressources linked above. 
-The replacement can also be done using docker mounts to avoid copying these inside the container.
+All ressources must be placed in the corresponding asset folder within the top-level directory "assets".
+The asset integration can also be done using docker mounts to avoid copying these inside the container.
 
 ### Build docker image
 
