@@ -13,7 +13,7 @@ For more details see our project page [project page](https://felixhertlein.githu
 For the dataset generation, your need the following ressources:
 - Warped paper meshes (download [samples](https://github.com/sagniklp/doc3D-renderer/tree/master/obj) orj [full dataset](https://github.com/cvlab-stonybrook/doc3D-dataset))
 - Company logos (download [here](https://data.vision.ee.ethz.ch/sagea/lld/))
-- HDR envrionment maps (download [samples](https://github.com/sagniklp/doc3D-renderer/tree/master/env) or [full dataset](http://www.hdrdb.com/indoor/))
+- HDR envrionment maps (download [samples](https://github.com/sagniklp/doc3D-renderer/tree/master/env) or [full dataset](http://www.hdrdb.com/indoor/) [currently offline, see [issue](https://github.com/FelixHertlein/inv3d-generator/issues/1)])
 - Fonts (already in this repository)
 - Document templates (already in this repository)
 
