@@ -20,7 +20,7 @@ ENV PATH "$PATH:/usr/inv3d/blender/blender-2.79-linux-glibc219-x86_64"
 # temporary for fast rebuilding (requirements are specified in "pip install .")
 RUN pip install numpy==1.20.2 tqdm==4.60.0 dpath==2.0.1 pandas==1.2.4 phonenumbers==8.12.21 Faker==8.1.1 schwifty==2021.4.0 opencv_python==4.5.1.48 bounding_box==0.1.3 scikit_learn==0.24.2 beautifulsoup4==4.9.3 pdf2image==1.14.0 selenium==3.141.0 webdriver_manager==3.4.2 pdfminer==20191125 torch==1.8.1 Flask==2.0.1
 RUN pip install pillow==8.4.0
-RUN pip install requests==2.26.0
+RUN pip install requests==2.26.0 Werkzeug==2.2.2
 
 RUN mkdir -p /usr/inv3d
 WORKDIR /usr/inv3d
